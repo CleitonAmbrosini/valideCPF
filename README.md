@@ -1,11 +1,10 @@
 
-# Initial setup for Typescript project
+# Validate CPF with POO
 
 ## Configured tools
 
 - [Typescript](https://www.typescriptlang.org/)
 - [Jest](https://jestjs.io/pt-BR/)
-- [Stryker](https://stryker-mutator.io/)
 - [Eslint](https://eslint.org/)
 - [Prettier](https://prettier.io/)
 - [Lint Staged](https://github.com/okonet/lint-staged)
@@ -25,10 +24,10 @@
   yarn test:staged
 ```
 
-- For run mutation tests.
+- For run coverage tests.
 
 ```Shell
-  yarn mutation
+  yarn coverage
 ```
 
 - For run lint.
